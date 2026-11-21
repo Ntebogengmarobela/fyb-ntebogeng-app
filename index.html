@@ -1,75 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Find Your Balance</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="img/vecteezy_global-bitcoin-cryptocurrency-worldwide-digital-currency_56420967.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="img/vecteezy_global-bitcoin-cryptocurrency-worldwide-digital-currency_56420967.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <section class="logo">
-            <img src="img/vecteezy_calculator-with-stack-of-coins-on-transparent-background_48094594.png" alt="">
-        </section>
-        <section class="word-grp">
-            <span>F</span>
-            <span>Find</span>
-        </section>
-        <section class="word-grp">
-            <span>Y</span>
-            <span>Your</span>
-        </section>
-        <section class="word-grp">
-            <span>₿</span>
-            <span>₿alance</span>
-        </section>
-        <!-- <h1>FY₿</h1>
+      <section class="logo">
+        <img
+          src="img/vecteezy_calculator-with-stack-of-coins-on-transparent-background_48094594.png"
+          alt=""
+        />
+      </section>
+      <section class="word-grp">
+        <span>F</span>
+        <span>Find</span>
+      </section>
+      <section class="word-grp">
+        <span>Y</span>
+        <span>Your</span>
+      </section>
+      <section class="word-grp">
+        <span>₿</span>
+        <span>₿alance</span>
+      </section>
+      <!-- <h1>FY₿</h1>
         <p>Find Your ₿alance</p> -->
     </header>
     <main>
-        <section class="calc-frame">
-         
-            <span class="calc-title">---- Calculator ----</span>
-           
-            <section class="calc-screen">
+      <section class="calc-frame">
+        <!-- <span class="calc-title">---- Calculator ----</span> -->
 
-            </section>
-            <section class="btn-row">
-               <section class="btn-crcle">
-                <i class="material-icons">backspace</i>
-                <!-- <span class="digits">1</span> -->
-               </section> 
-                <section class="btn-crcle">
-                <span class="digits">AC</span>
-               </section> 
-                 <section class="btn-crcle">
-                <span class="digits">&percnt;</span>
-               </section> 
-                 <section class="btn-crcle-org">
-                <span class="digits">&divide;</span>
-               </section> 
-            </section>
-            <!-- <section class="btn-row">
-               <section class="btn-crcle">
-               
-                <span class="digits">7</span>
-               </section> 
-                <section class="btn-crcle">
-                <span class="digits">8</span>
-               </section> 
-                 <section class="btn-crcle">
-                <span class="digits">9</span>
-               </section> 
-                 <section class="btn-crcle-org">
-                <span class="digits">X</span>
-               </section> 
-            </section> -->
+        <input id="display" type="number" readonly class="calc-screen"></input>
+        <section class="btn-row">
+          <button class="btn-crcle-top">
+            <i class="material-icons">backspace</i>
+            <!-- <span class="digits">1</span> -->
+          </button>
+          <button class="btn-crcle-top">
+            <span class="digits">AC</span>
+          </button>
+          <button class="btn-crcle-top">
+            <span class="digits">&percnt;</span>
+          </button>
+          <button class="btn-crcle-org">
+            <span class="digits">&divide;</span>
+          </button>
         </section>
+        <section class="btn-row">
+          <button class="btn-crcle">
+            <span class="digits">7</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">8</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">9</span>
+          </button>
+          <button class="btn-crcle-org">
+            <span class="digits">&times;</span>
+          </button>
+        </section>
+        <section class="btn-row">
+          <button class="btn-crcle">
+            <span class="digits">4</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">5</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">6</span>
+          </button>
+          <section class="btn-crcle-org">
+            <span class="digits">&minus;</span>
+          </section>
+        </section>
+        <section class="btn-row">
+          <button class="btn-crcle">
+            <span class="digits">1</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">2</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">3</span>
+          </button>
+          <button class="btn-crcle-org">
+            <span class="digits">+</span>
+          </button>
+        </section>
+        <section class="btn-row">
+          <button class="btn-crcle">
+            <span class="digits">&plus;&sol;&minus; </span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">2</span>
+          </button>
+          <button class="btn-crcle">
+            <span class="digits">3</span>
+          </button>
+          <button class="btn-crcle-org">
+            <span class="digits">&equals;</span>
+          </button>
+        </section>
+      </section>
     </main>
-  
-</body>
-
+    <footer>
+        <span>&copy; Find Your Balance</span>
+        <span>|</span>
+        <span>Devoloped by: Ntebogeng Marobela</span>
+    </footer>
+  </body>
 </html>
