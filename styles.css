@@ -171,14 +171,14 @@ img {
     align-items: center;
     /* position: relative;
     z-index: 1000; */
-}
+}            
 .calc-screen {
-    display: flex;
+    display: flex;              
     height: 100px;
     /* height: 129.333px; */
     width: 400px;
     border-radius: 25px;
-    /* border: 1px solid rgb(247, 147, 26); */
+    border: 1px solid rgb(247, 147, 26);          
     /* border: 1.5px solid rgb(0, 122, 204); */
     align-items: center;
     margin-top: 45px;
@@ -187,7 +187,7 @@ img {
     /* background-color: rgb(255,255,255); */
     /* background-color: rgb(247, 147, 26); */
     background-color: transparent;
-    border: none;
+   
     
    
 }
@@ -216,9 +216,9 @@ img {
     /* text-decoration: underline; */
     margin-top: 20px;
     display: flex;
-    /* color: rgb(247, 147, 26); */
+    color: rgb(247, 147, 26);
     /* color: rgb(0, 122, 204); */
-    color: rgb(255,255,255);
+    /* color: rgb(255,255,255); */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -335,7 +335,7 @@ footer {
 }
 .hme-btn {
     display: flex;
-    border: 1px solid rgb(247, 147, 26);
+    /* border: 1px solid rgb(247, 147, 26); */
     border-radius: 50%;
     height: 60px;
     width: 60px;
@@ -346,8 +346,9 @@ footer {
     width: 86px; */
     margin-top: 5px;
     margin-bottom: 5px;
+    background-color: transparent;
     
-    border-bottom: 1px solid rgb(247, 147, 26);
+ 
     
 }
 .speaker {
